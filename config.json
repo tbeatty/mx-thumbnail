@@ -1,0 +1,5 @@
+{
+  "thumbnail_sizes": [100, 300, 600],
+  "resolution": 72,
+  "output_bucket": "mx-thumbnails"
+}
