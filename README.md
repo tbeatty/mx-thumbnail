@@ -12,6 +12,7 @@ Function output is configured in the `config.json` file.
 gcloud functions deploy pdf-thumbnail \
   --runtime python37 \
   --memory 2048MB \
+  --timeout 540s \
   --trigger-bucket gs://mx-docs \
   --entry-point handle_message
 ```
